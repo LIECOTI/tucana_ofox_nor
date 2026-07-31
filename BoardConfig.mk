@@ -72,21 +72,6 @@ TW_DEFAULT_LANGUAGE := ru
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-# OrangeFox R12.1 Specific Flags
-FOX_R12_1 := 1
-OF_FLASHLIGHT_ENABLE := 1
-OF_FL_PATH1 := "/sys/class/leds/led:torch_0"
-OF_FL_PATH2 := "/sys/class/leds/led:torch_1"
-OF_SCREEN_H := 2340
-OF_STATUS_H := 80
-OF_STATUS_INDENT_LEFT := 48
-OF_STATUS_INDENT_RIGHT := 48
-OF_HIDE_NOTCH := 1
-OF_USE_GREEN_LED := 0
-OF_ALLOW_DISABLE_NAVBAR := 0
-OF_QUICK_BACKUP_LIST := "/boot;/recovery;/data;"
-OF_MAINTAINER := "LIECO"
-
 # Target Settings
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_MAX_BRIGHTNESS := 2047
