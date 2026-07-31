@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Cleanup Space
       run: |
@@ -67,7 +67,7 @@ jobs:
         mka recoveryimage
 
     - name: Upload Recovery Image
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: OrangeFox-tucana-build
         path: |
